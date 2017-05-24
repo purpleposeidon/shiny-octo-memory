@@ -1,0 +1,14 @@
+# crate M, the binary
+
+[package]
+name = "M"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+publish = false
+
+[workspace]
+members = ["src/L"]
+
+[dependencies]
+C = { path = "src/C" }
+libloading = "*"

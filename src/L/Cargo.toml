@@ -1,0 +1,13 @@
+# crate L, the dynamic library
+
+[package]
+name = "L"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+path = "L.rs"
+
+[dependencies]
+C = { path = "../C" }

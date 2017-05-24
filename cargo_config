@@ -1,0 +1,5 @@
+# This file lives in .cargo/cargo_config. But it's not necessary.
+
+# [build]
+# rustflags = ["-C", "prefer-dynamic"]
+

@@ -1,0 +1,12 @@
+# crate C, the common library
+
+[package]
+name = "C"
+version = "0.1.0"
+authors = ["neptunepink <purpleposeidon@gmail.com>"]
+
+[lib]
+path = "C.rs"
+crate-type = ["dylib"]
+
+
